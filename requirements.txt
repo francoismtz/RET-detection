@@ -1,0 +1,12 @@
+# Versions testees : Python 3.12, torch 2.11.0+cu128, onnxruntime-gpu 1.25.1,
+# onnx 1.22.0, opencv-python 5.0, numpy 2.5, matplotlib 3.11.
+#
+# torch : prendre la roue CUDA (https://pytorch.org/get-started/locally/).
+# Sous Windows, onnxruntime-gpu reutilise les DLL CUDA/cuDNN de torch/lib :
+# un seul environnement, une seule pile CUDA.
+numpy>=1.26
+opencv-python>=4.8
+matplotlib>=3.8
+torch>=2.3
+onnxruntime-gpu>=1.21   # ou `onnxruntime` sur une machine sans GPU (--sur-cpu)
+onnx>=1.15              # seulement pour l'option --coupe

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv*/
+
+# Modeles : non distribues (voir models/README.md)
+models/*
+!models/README.md
+
+# Donnees et sorties
+sorties/
+donnees/
+data/
+*.npz
+Preclassifier_output.xml
+
+# Editeurs / systeme
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
