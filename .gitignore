@@ -21,3 +21,7 @@ Preclassifier_output.xml
 .idea/
 Thumbs.db
 .DS_Store
+
+datasets/*
+
+venv/
